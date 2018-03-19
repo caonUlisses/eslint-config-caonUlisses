@@ -1,19 +1,4 @@
 # My eslint configs
-
-## Dependencies
-
-This style guide is aimed at [flow](https://flow.org/), so you'll need to install `eslint-plugin-flowtype` and `babel-eslint`, aswell as eslint itself:
-
-```bash
-yarn add eslint eslint-plugin-flowtype babel-eslint
-```
-
-or 
-
-```bash
-npm install eslint eslint-plugin-flowtype babel-eslint
-```
-
 ## Installation
 
 Install it with `yarn` or `npm`
