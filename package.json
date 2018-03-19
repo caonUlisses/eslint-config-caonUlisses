@@ -6,6 +6,6 @@
   "peerDependencies": {
     "babel-eslint": "^8.2.2",
     "eslint": "^4.19.0",
-    "eslint-plugin-flowtype": "^2.46.1",
+    "eslint-plugin-flowtype": "^2.46.1"
   }
 }

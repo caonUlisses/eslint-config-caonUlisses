@@ -15,18 +15,14 @@ Platform:
 
 npm manifest: 
   {
-    "name": "eslint-config-caonUlisses",
-    "version": "1.0.0",
+    "name": "eslint-config-caonulisses",
+    "version": "1.0.3",
     "main": "index.js",
     "license": "MIT",
     "peerDependencies": {
-      "babel-cli": "^6.26.0",
       "babel-eslint": "^8.2.2",
-      "babel-preset-flow": "^6.23.0",
       "eslint": "^4.19.0",
-      "eslint-config-airbnb-base": "^12.1.0",
-      "eslint-plugin-import": "^2.9.0",
-      "eslint-plugin-flowtype": "^2.46.1"
+      "eslint-plugin-flowtype": "^2.46.1",
     }
   }
 
@@ -38,14 +34,10 @@ Lockfile:
   # yarn lockfile v1
 
 Trace: 
-  Error: https://registry.yarnpkg.com/eslint-config-caonUlisses: "eslint-config-caonUlisses" is invalid for new packages
-      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:65019:18)
-      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:132430:22)
-      at Request.emit (events.js:180:13)
-      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:133413:10)
-      at Request.emit (events.js:180:13)
-      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:133333:12)
-      at Object.onceWrapper (events.js:272:13)
-      at IncomingMessage.emit (events.js:185:15)
-      at endReadableNT (_stream_readable.js:1101:12)
-      at process._tickCallback (internal/process/next_tick.js:114:19)
+  SyntaxError: D:\code\testes\flow@2\package.json: Unexpected token } in JSON at position 227
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1036:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:98:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:109:13
+      at <anonymous>
